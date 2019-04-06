@@ -1,0 +1,8 @@
+prefix=/home/nathan/test/install
+
+Name: beginner_tutorials
+Description: Description of beginner_tutorials
+Version: 0.0.0
+Cflags: -I/home/nathan/test/install/include
+Libs: -L/home/nathan/test/install/lib 
+Requires: message_runtime
