@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nathan/test/src
+CMAKE_SOURCE_DIR = /home/nathan/f1-10-ROS/jewelln_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nathan/test/build
+CMAKE_BINARY_DIR = /home/nathan/f1-10-ROS/jewelln_ws/build
 
 # Utility rule file for std_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/build: std_msgs_
 .PHONY : beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/build
 
 beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	cd /home/nathan/test/build/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/nathan/f1-10-ROS/jewelln_ws/build/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/depend:
-	cd /home/nathan/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nathan/test/src /home/nathan/test/src/beginner_tutorials /home/nathan/test/build /home/nathan/test/build/beginner_tutorials /home/nathan/test/build/beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nathan/f1-10-ROS/jewelln_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nathan/f1-10-ROS/jewelln_ws/src /home/nathan/f1-10-ROS/jewelln_ws/src/beginner_tutorials /home/nathan/f1-10-ROS/jewelln_ws/build /home/nathan/f1-10-ROS/jewelln_ws/build/beginner_tutorials /home/nathan/f1-10-ROS/jewelln_ws/build/beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/depend
 
