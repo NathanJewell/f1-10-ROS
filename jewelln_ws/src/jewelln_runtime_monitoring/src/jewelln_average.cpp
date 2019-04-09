@@ -19,7 +19,6 @@ void nextAverage(const geometry_msgs::Twist::ConstPtr& cmd_vel)
     }
 
     float newVelAvg = (float)cmd_vel->linear.x / 10.0f;
-    ROS_INFO("Avg: %s", std::to_string(newVelAvg).c_str());
     historicalVelocity.push(newVelAvg);
     avg += newVelAvg; 
     

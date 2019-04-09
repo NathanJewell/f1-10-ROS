@@ -1,2 +1,0 @@
-beginner_tutorials:jewelln_runtime_monitoring
--DCATKIN_DEVEL_PREFIX=/home/nathan/f1-10-ROS/jewelln_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nathan/f1-10-ROS/jewelln_ws/install -G Unix Makefiles
